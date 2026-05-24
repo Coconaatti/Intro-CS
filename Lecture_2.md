@@ -8,4 +8,7 @@
 - multiplying an str by a number gives a repetition of that str, and its valid.
 - Apparently you can't modify strings, you must copy them and remodify (This isnt C++! :D), or just use ``.replace()`` and these stuff.
 - In F-Strings, you can use modifiers such as this: ``f{3.14159:.2f}`` or this: ``f{30000:,}``
-- The input 
+- The input function always returns an str, even if you input an int.
+- Programming languages by default use ASCII to represent letters, it includes 128 characters and does not cover letters from other languages.
+- UTF contains more than 120,000 characters, covering 129 modern and historic scripts and multiple symbol sets.
+- to change the encoding of letters, use this special comment: ``# -*- coding: encoding name -*-`` For example , to change to UTF-8: ``# -*- coding: utf-8 -*-``
