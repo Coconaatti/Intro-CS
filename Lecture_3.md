@@ -1,0 +1,4 @@
+- all I can say is that there's for loops and while loops
+- range works like this : ``range(start,stop,step)``
+- check PEP 8 on styling, it recommends 4 indent spaces
+- camelSpace, snake_case, PascalCase
