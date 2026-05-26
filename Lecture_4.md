@@ -24,8 +24,7 @@ significant binary digits, we would represent 0.1 as (11001, -1000),
 which is equivalent to 25/256, i.e., 0.09765625. How many significant
 digits would we need to get an exact floating-point representation of
 0.1? An infinite number of digits! There do not exist integers sig and
-exp such that sig
- * 2-exp equals 0.1. So, no matter how many bits
+exp such that sig * 2-exp equals 0.1. So, no matter how many bits
 Python (or any other language) uses to represent floating-point
 numbers, it can represent only an approximation to 0.1. In most
 Python implementations, there are 53 bits of precision available for
