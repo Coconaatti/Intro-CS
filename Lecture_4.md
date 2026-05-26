@@ -34,3 +34,6 @@ decimal number 0.1 will be
 This is equivalent to the decimal number
 0.1000000000000000055511151231257827021181583404541015625
 ```
+
+- https://0.30000000000000004.com/
+- https://fabiensanglard.net/floating_point_visually_explained/
