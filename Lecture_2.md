@@ -1,6 +1,6 @@
 - Expressions are a combination of Objects and Operators.
 - there's conditional expressions, you know, ``expr1 if condition else expr2`` which gives an expression known as a conditional expression.
-- You can separate code lines using (\) or by surrounding your expression in parentheses.
+- You can separate code lines using ``\`` or by surrounding your expression in parentheses.
 - Compound boolean expressions can be sth like ``x < y and x < z:``
 - Constant time is the time of execution of a program unrelated to a specific variable affecting it, and also does not exceed the number of lines in a program.
 - Constant time is represented in O(1), not O(n), because it means that the execution time is not affected by a variable (independent).
