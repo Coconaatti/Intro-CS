@@ -18,5 +18,5 @@ does not work, and then fixing it).*
 - keyword arguments are these arguments passed in the function invokation, in which the names of formal arguments are passed to actual values)
 - Something like this: `` print(greeting(Key = "Hello", Value = "World")). ``
 -  *In Python, you can always determine the scope of a name by looking at the program text. This is called static or lexical scoping.*
-
+- global variables can be accessed in a function as an rvalue, not as an lvalue.
 
