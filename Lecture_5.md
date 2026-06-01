@@ -1,0 +1,6 @@
+- Approximation method is just a better version of the previous guess and check method , except that its step changes by a float.
+- That float is the espilon wanted powered by 2
+- epsilon represents "your closest POSSIBLE approximation" to the result.
+- bisection search is the high and low.. its just binary search
+- reference & explanation is in grokking algorithms :3
+- 
