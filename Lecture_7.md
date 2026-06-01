@@ -19,4 +19,4 @@ does not work, and then fixing it).*
 - Something like this: `` print(greeting(Key = "Hello", Value = "World")). ``
 -  *In Python, you can always determine the scope of a name by looking at the program text. This is called static or lexical scoping.*
 - global variables can be accessed in a function as an rvalue, not as an lvalue.
-
+- functions work in LIFO "queueing" lol. (the last in is the first out)
