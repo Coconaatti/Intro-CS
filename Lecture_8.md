@@ -1,0 +1,3 @@
+- Lambdas return functions, and they are one liners themselves!!
+- The name is derived from Church's use of the Greek letter lambda (λ) to denote function abstraction
+- Objects (or to be more exact, iterables) can be copied using slicing, like this: ``a = "123" b = a[:]``. This copies it but it doesn't create a new object specifically.
