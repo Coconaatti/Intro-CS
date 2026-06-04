@@ -39,4 +39,11 @@ def append_val(val, list_1 = []):
 append_val(3) # I didn't set list_1 to be something , so list_1 will be used as if it was a normal variable
 append_val(4)
 # get it? :)
-``` 
+```
+
+> _"When we append one list to another, e.g., Techs.append(Ivys),
+> the original structure is maintained. The result is a list that contains
+> a list. Suppose we do not want to maintain this structure, but want to
+> add the elements of one list into another list. We can do that by using
+> list concatenation (using the + operator) or the extend method."_
+> The book
