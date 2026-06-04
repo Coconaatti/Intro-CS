@@ -47,3 +47,8 @@ append_val(4)
 > add the elements of one list into another list. We can do that by using
 > list concatenation (using the + operator) or the extend method."_
 > The book
+
+- Now comes the fun story!
+- There was a finger exercise in the book that asked to print what happens when we append a list to itself. provided with the quote above, the whole list with the original structure is appended to itself, so basically what happens is that the list creates a reference of it self instead of creating a new object inside of it (Remember, append mutates and does not copy.) Copying however, whether you used a deep or shallow, works perfectly. reassigning doesn't work. but copying by ``L[:]`` works. when we append a list to itself, it marks that reference using ... , or ellipsis. I asked on stackoverflow what append does and what does that ellipsis represent but I got duplicated of course 🥀
+- shallow copying references the content of an object (the memory block), while deep copying copies these objects themselves (or the whole object to be exact).
+
