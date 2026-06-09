@@ -61,3 +61,5 @@ L3[0].append(3)
 print(L3)
 ```
 this prints [[3,2],[3,2]] because L2 contains 2 exact object of L1, so they are both modified.
+
+- [Also I think this clip explains](https://www.youtubetrimmer.com/view/?v=hpsp-LQurco&start=1105&end=1293&loop=0)
