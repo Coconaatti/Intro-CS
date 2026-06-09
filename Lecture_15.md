@@ -1,0 +1,1 @@
+- Recursion can be used when you dont know how many times you're going to iterate through something, but yk the base case already!
