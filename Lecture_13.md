@@ -2,3 +2,4 @@
 - and unhandled exception is one that is not... responded to?
 - a handled exception is one that is "handled".
 - You can raise more than one exception using tuples with the except block. Like this: ``except (error, error)``, ``except error`` for one error, and ``except: `` for all types of errors 
+- A function is polymorphic if its arguments can fit a lot of types. (not 'a lot of arguments' like  args and kwargs)
