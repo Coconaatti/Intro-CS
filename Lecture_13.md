@@ -1,0 +1,4 @@
+- Handlers are functions / programs that respond to another.
+- and unhandled exception is one that is not... responded to?
+- a handled exception is one that is "handled".
+- You can raise more than one exception using tuples with the except block. Like this: ``except (error, error)``, ``except error`` for one error, and ``except: `` for all types of errors 
