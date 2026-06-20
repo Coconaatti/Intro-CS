@@ -20,3 +20,10 @@ does not work, and then fixing it).*
 -  *In Python, you can always determine the scope of a name by looking at the program text. This is called static or lexical scoping.*
 - global variables can be accessed in a function as an rvalue, not as an lvalue.
 - functions work in LIFO "queueing" lol. (the last in is the first out)
+
+- _**Decomposition** creates structure. It allows us to break a
+program into parts that are reasonably self-contained and that may
+be reused in different settings.
+**Abstraction** hides detail. It allows us to use a piece of code as if
+it were a black box—that is, something whose interior details we
+cannot see, don't need to see, and shouldn't even want to see._
