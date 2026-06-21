@@ -1,1 +1,2 @@
 - Professor made a mistake around minute 22. Make sure to check it out
+- [Difference between big O and big theta](https://stackoverflow.com/questions/3230122/big-oh-vs-big-theta)
