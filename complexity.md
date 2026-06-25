@@ -3,8 +3,11 @@
 - **big O vs big Θ**:
 <img width="931" height="557" alt="image" src="https://github.com/user-attachments/assets/627829e8-fc91-4e83-99a2-41e9c29ba21b" />
 
-[See also this answer](https://stackoverflow.com/a/471292). I liked the part specifically in: "so it will never be significantly faster or slower than stated."
+[See also this answer](https://stackoverflow.com/a/471292). I liked the part specifically in: "so it will never be significantly faster or slower than stated." It's also called as tight bound to signify that it gets no more less than this or more than that. Functions like quick sort that have a worst case of O(n) and an average case of O(n log n) cannot be using a big theta
 - **Merge sort**:
 - **Selection sort**:
   The idea is basically starting at the very first index of the list, and checking if there's any smaller number than the one in the current index. So for index i, we iterate through L[i:] (<- prevents you from falling into an infinite loop) to see who's smaller than this index. IF there's an element that's smaller, they switch places, and the checking continues, but we check with the new element, is there anything smaller than this element? if no, we increase the index by one to continue searching. [Here's the implementation](https://pythontutor.com/visualize.html#code=def%20sel_sort%28L%29%3A%0A%20%20%20%20suffix_start%20%3D%200%0A%20%20%20%20while%20suffix_start%20!%3D%20len%28L%29%3A%0A%20%20%20%20%20%20%20%20for%20i%20in%20range%28suffix_start,%20len%28L%29%29%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28f%22suffix_start%3A%20%7Bsuffix_start%7D%22%29%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28f%22i%3A%20%7Bi%7D%22%29%0A%20%20%20%20%20%20%20%20%20%20%20%20if%20L%5Bi%5D%20%3C%20L%5Bsuffix_start%5D%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20L%5Bsuffix_start%5D,%20L%5Bi%5D%20%3D%20L%5Bi%5D,%20L%5Bsuffix_start%5D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20print%28L%29%0A%20%20%20%20%20%20%20%20suffix_start%20%2B%3D%201%0A%20%20%20%20%0AL%20%3D%20%5B1,%205,%209,%202,%204,%200,%202%5D%0Asel_sort%28L%29&curInstr=3&mode=display&origin=opt-frontend.js&py=311) 
 - **Some goofy terms**:
+  - Asymptotic complexity: Why "asymptotic"?
+  - Amotizing your code: sure it means saving time by sorting, but how is amotizing related?
+  - 
