@@ -2,6 +2,7 @@
 - Why not just divide by two? well dividing by two is only one step of the total steps taken to finish your overall operation, meanwhile logarithms cover all of the steps requried.
 - **big O vs big Θ**:
 <img width="931" height="557" alt="image" src="https://github.com/user-attachments/assets/627829e8-fc91-4e83-99a2-41e9c29ba21b" />
+
 [See also this answer](https://stackoverflow.com/a/471292). I liked the part specifically in: "so it will never be significantly faster or slower than stated."
 - **Merge sort**:
 - **Selection sort**:
