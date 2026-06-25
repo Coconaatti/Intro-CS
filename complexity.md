@@ -1,0 +1,5 @@
+- [Why do we tend to use log for representing logarithmic time complexity?](https://youtu.be/M4ubFru2O80?si=65JTbOlKvBVJdkQd)
+- Why not just divide by two? well dividing by two is only one step of the total steps taken to finish your overall operation, meanwhile logarithms cover all of the steps requried.
+- **big O vs big Θ**:
+- **Merge sort**:
+- **Some goofy terms**:
