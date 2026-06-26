@@ -12,4 +12,17 @@
 - **Some goofy terms**:
   - Asymptotic complexity: Why "asymptotic"? Answer: it means that something (our input) is approaching infinity, and we want to get the complexity of such an input. [Stackoverflow answer](https://cs.stackexchange.com/questions/53931/why-are-complexity-notations-called-asymptotic)
   - Amotizing your code: sure it means saving time by sorting, but how is amotizing related?
-  - 
+  -
+
+
+> [!IMPORTANT]
+> Check this little harmful function:
+> ```python
+> def loop(x):
+>       y = 100
+>       total = 0
+>       for i in range(y):
+>         total += x
+>       return total
+> ```
+> You might think that the time complexity here is O(n), because look! the loop depends on the y right here. AND THAT'S WRONG! y here is not changable it is but that destroys the idea of functions, their purpose, and abstraction and decomposition. Because functions already provide input formal parameters that can be changed depending on your own input. Why modify the function itself? So that concludes: the determinant here is the x variable. Okay, but here the x variable is included in one arithmetic operation, nothing else, nothing harmful. So the complexity becomes O(1) No matter what x is.
