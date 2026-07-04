@@ -36,5 +36,5 @@ O(1) denotes *constant* running time.
 O(log n) denotes *logarithmic* running time.
 O(n) denotes *linear* running time.
 O(n log n) denotes *log-linear* running time.
-O(nk) denotes *polynomial* running time. Notice that k is a
-constant.```
+O(nk) denotes *polynomial* running time. Notice that k is a constant.
+```
