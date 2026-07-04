@@ -38,3 +38,5 @@ O(n) denotes *linear* running time.
 O(n log n) denotes *log-linear* running time.
 O(n^k) denotes *polynomial* running time. Notice that k is a constant.
 ```
+<img width="1161" height="662" alt="image" src="https://github.com/user-attachments/assets/59955e6c-8f2e-4d63-a24f-b213713fdcae" />
+
