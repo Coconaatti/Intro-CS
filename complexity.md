@@ -25,7 +25,7 @@
 >         total += x
 >       return total
 > ```
-> You might think that the time complexity here is O(n), because look! the loop depends on the y right here. AND THAT'S WRONG! y here is not changable it is but that destroys the idea of functions, their purpose, and abstraction and decomposition. Because functions already provide input formal parameters that can be changed depending on your own input. Why modify the function itself? So that concludes: the determinant here is the x variable. Okay, but here the x variable is included in one arithmetic operation, nothing else, nothing harmful. So the complexity becomes O(1) No matter what x is. Usually when deciding a time complexity, check the input parameters and anything that can possibly affect your iterations, But these "things" better be mutable in first place. Ask yourself: can a client potentially change this variable?
+> You might think that the time complexity here is O(n), because look! the loop depends on the y right here. AND THAT'S WRONG! y here is not changable, it is but that destroys the idea of functions, their purpose, abstraction and decomposition. Because functions already provide input formal parameters that can be changed depending on your own input. Why modify the function itself? So that concludes: the determinant here is the x variable. Okay, but here the x variable is included in one arithmetic operation, nothing else, nothing harmful. So the complexity becomes O(1) No matter what x is. Usually when deciding a time complexity, check the input parameters and anything that can possibly affect your iterations, But these "things" better be mutable in first place. Ask yourself: can a client potentially change this variable?
 
 Time complexity on data Types and their relative operations:
 <img width="724" height="276" alt="image" src="https://github.com/user-attachments/assets/bea4cea0-65f1-429f-89dd-5b56c5b01005" />
@@ -37,6 +37,7 @@ O(log n) denotes *logarithmic* running time.
 O(n) denotes *linear* running time.
 O(n log n) denotes *log-linear* running time.
 O(n^k) denotes *polynomial* running time. Notice that k is a constant.
+O(k^n) denotes *exponential* running time.
 ```
 <img width="1161" height="662" alt="image" src="https://github.com/user-attachments/assets/59955e6c-8f2e-4d63-a24f-b213713fdcae" />
 
